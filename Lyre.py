@@ -65,6 +65,7 @@ class Player:
 
     def load_songs(self):
         self.songs = list()
+        self.current_range = 1
 
         if not os.path.exists(SONGS_PATH):
             print(" ")
@@ -230,7 +231,7 @@ if __name__ == "__main__":
           "               2X                    X2\n" +
           "               :                      :\n" +
           "                 Проигрыватель \"Лира\"\n" +
-          "                    Версия: 1.0.0\n" +
+          "                    Версия: 1.0.1\n" +
           " \n" +
           "                   by NyashMyash99\n" +
           "              https://vk.com/nyashmyash99\n" +
